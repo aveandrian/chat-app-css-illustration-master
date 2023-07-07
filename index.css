@@ -285,12 +285,26 @@ main {
 
 @media screen and (max-width: 750px) {
     body {
-        padding: 20px
+        padding: 20px;
+        position: relative
     }
 
     .main-bg-left {
-        
+        width: 100vw;
+        transform: translate(-50%, -30%);
     }
+
+    .main-bg-right {
+        height: 50vh;
+        width: 100vw;
+
+        transform: translateX(50%);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+   
+
     main {
         display: flex;
         flex-direction: column;
@@ -300,11 +314,22 @@ main {
 
     .mobile-outline {
         margin: 0;
+        width: 250px;
+        height: 510px;
     }
 
     .description {
         padding: 0;
         text-align: center;
+    }
+
+    .message, .account-status, .text {
+        font-size: 2vw;
+    }
+
+    .input-container {
+        font-size: 3vw;
+        height: 45px;
     }
 
     footer {
