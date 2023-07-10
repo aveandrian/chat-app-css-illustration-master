@@ -19,4 +19,4 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/aveandrian/chat-app-css-illustration-master/assets/13519212/e41893b3-b3af-41ed-9c9d-256bb57ecaca)
