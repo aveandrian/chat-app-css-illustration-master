@@ -286,7 +286,7 @@ main {
 @media screen and (max-width: 750px) {
     body {
         padding: 20px;
-        position: relative
+        position: relative;
     }
 
     .main-bg-left {
@@ -297,8 +297,7 @@ main {
     .main-bg-right {
         height: 50vh;
         width: 100vw;
-
-        transform: translateX(50%);
+        transform: translateX(50vw);
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
     }
